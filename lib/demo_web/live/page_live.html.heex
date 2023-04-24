@@ -1,0 +1,11 @@
+<div class="w-full text-center">
+  <strong>
+    <%= @number %> Hello World or not?
+  </strong>
+  <.button class="bg-blue-600 hover:bg-blue-300" phx-click="add">Add</.button>
+  <.test />
+  <.simple_form for={@form} phx-submit="adding_more">
+    <.input field={@form[:add_amount]} value={@form.params.adding_amount_default} />
+    <.button>Add More</.button>
+  </.simple_form>
+</div>
