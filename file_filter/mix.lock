@@ -1,0 +1,6 @@
+%{
+  "pdf2htmlex": {:hex, :pdf2htmlex, "0.2.0", "77c88bfa7ae3202c9d02f02e5efbf8dee88b0836684c65dafc2de19aa9f7a6d4", [:mix], [], "hexpm", "50885e995d25362b1f25c74796c0627657147d4d10ccb4be736be3b06b8a44a3"},
+  "pdf_generator": {:hex, :pdf_generator, "0.6.2", "601f145a0db0dcd7b8c35e1698038f78f18fc42eb3bd2001f826a3a239205f0e", [:mix], [], "hexpm", "82af2debaae156834b14dc0727cd8c3ded70ed4a2a909107d514bf28f5d1fc35"},
+  "secure_random": {:hex, :secure_random, "0.5.1", "c5532b37c89d175c328f5196a0c2a5680b15ebce3e654da37129a9fe40ebf51b", [:mix], [], "hexpm", "1b9754f15e3940a143baafd19da12293f100044df69ea12db5d72878312ae6ab"},
+  "tesseract_ocr": {:hex, :tesseract_ocr, "0.1.5", "158d5f1a3b6507655f52c4cb55c7ddf638f1c1ede0dc464e027cd0e01d7c4b64", [:mix], [{:secure_random, ">= 0.0.0", [hex: :secure_random, repo: "hexpm", optional: false]}], "hexpm", "fdc09d9704ba2e162740f651db5a4dcf1643d6cb70e3e8f8d33352e4b6ac6d99"},
+}
